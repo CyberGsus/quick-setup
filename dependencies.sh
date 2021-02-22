@@ -15,6 +15,8 @@ discord # of course.
 betterdiscordctl # yes.
 aur/gruvbox-dark-gtk
 aur/gruvbox-dark-icons-gtk 
+picom
+feh
 )
 
 declare -a fonts=(
