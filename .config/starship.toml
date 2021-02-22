@@ -1,0 +1,4 @@
+[hostname]
+ssh_only = false
+format = "[$hostname]($style) "
+style = "dimmed yellow"

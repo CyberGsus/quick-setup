@@ -1,0 +1,114 @@
+//META{"name":"Gruvbox","description":"Some random gruvbox-based theme","author":"CyberGsus","version":"0.0.0"}*//
+
+.theme-dark,
+.theme-dark :hover {
+  --background-primary: #282828;
+  --background-secondary: #32302f;
+  --background-secondary-alt: var(--background-secondary);
+  --background-tertiary: #282828; /* #1d2021; */
+  --channeltextarea-background: #3c3836;
+  --scrollbar-thin-thumb: #282828;
+  --scrollbar-auto-thumb: #3c3836;
+  --scrollbar-auto-track: #282828;
+  --header-primary: #ebdbb2;
+  --header-secondary: #fbf1c7;
+  --interactive-normal: #928374;
+  --background-accent: #665c54;
+  --text-muted: #7c6f64;
+  --channels-default: #7c6f64;
+  --interactive-muted: #504945;
+  --interactive-active: #fbf1c7;
+  --interactive-normal: #665c54;
+  --interactive-hover: #d5c4a1;
+  --text-normal: #ebdbb2;
+  --background-modifier-hover: rgba(189, 174, 147, 0.16);
+  --background-modifier-active: rgba(168, 153, 132, 0.16);
+  --background-modifier-selected: #504945;
+}
+
+.theme-dark [aria-label="Add Friend"] {
+  background-color: #8ec07c !important;
+}
+.theme-dark [aria-label="Add Friend"] > span {
+  color: #fbf1c7;
+}
+
+.theme-dark .da-menu {
+  background-color: var(--background-tertiary);
+}
+
+.theme-dark .da-actionButton.da-highlight {
+  background-color: #32302f;
+}
+
+.theme-dark .da-closeButton svg path {
+  fill: #ebdbb2;
+}
+.theme-dark .da-closeButton {
+  border-color: #504945;
+}
+.theme-dark .da-keybind {
+  color: #504945;
+}
+.theme-dark .da-uploadButton button,
+.theme-dark .da-field > button,
+.theme-dark .da-fieldButtonList > button {
+  background-color: #504945;
+}
+.theme-dark .da-emojiButtonNormal .da-sprite {
+  filter: sepia(100%) brightness(92%) hue-rotate(25deg) saturate(59%) !important;
+}
+.theme-dark .da-cozyMessage .da-mentioned::before {
+  background-color: #fabd2f;
+}
+.theme-dark .da-contents {
+  color: #ebdbb2;
+}
+.theme-dark .da-autocompleteInner {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .da-input {
+  background-color: var(--background-tertiary);
+}
+
+.theme-dark .da-uploadModal {
+  background-color: #282828;
+}
+
+.theme-dark [role="dialog"] .da-root,
+.theme-dark [role="dialog"] .da-flex {
+  background-color: #282828;
+}
+
+.theme-dark .da-peopleColumn {
+  background-color: var(--background-primary);
+}
+
+button [type="submit"] {
+  background-color: #83a598;
+}
+
+.theme-dark .da-body,
+.theme-dark .da-footer {
+  background-color: var(--background-primary);
+}
+
+.da-disableButton {
+  background-color: #fb4934;
+}
+
+/* BetterDiscord stuff bc they're special */
+#bd-settings-sidebar .ui-tab-bar-header .bd-changelog-button > svg {
+  fill: var(--channels-default) !important;
+}
+#bd-settings-sidebar .ui-tab-bar-header {
+  color: var(--channels-default) !important;
+}
+#bd-settings-sidebar .ui-tab-bar-item {
+  color: var(--interactive-normal) !important;
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+  background-color: var(--background-modifier-selected) !important;
+  color: #ebdbb2 !important;
+}
