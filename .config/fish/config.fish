@@ -62,3 +62,4 @@ alias tb='nc termbin.com 9999'
 source ("/usr/bin/starship" init fish --print-full-init | psub)
 
 # vim:ft=fish
+jfetch

@@ -17,6 +17,7 @@ aur/gruvbox-dark-gtk
 aur/gruvbox-dark-icons-gtk 
 picom
 feh
+jfetch
 )
 
 declare -a fonts=(
